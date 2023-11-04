@@ -1,6 +1,7 @@
-const repeatString = function(string) {
-    for (let i = 0; i < 4; i++){
-        console.log('hey');
+const repeatString = function(string, times) {
+    const string = 'hey';
+    for (let times = 0; times < 4; times++){
+        return string;
     }
 };
 
