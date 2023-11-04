@@ -1,4 +1,4 @@
-const repeatString = function() {
+const repeatString = function(string) {
     for (let i = 0; i < 4; i++){
         console.log('hey');
     }
