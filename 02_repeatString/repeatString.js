@@ -1,7 +1,11 @@
 
 const repeatString = function(string, times){
-    return (times < 0) ? new Error('Error') :string.repeat(times);
+    var returnString = '';
+    for (let i = 0; i < times; i++){
+        returnString += string;
+    }
+    return returnString;
 };
-console.log(repeatString());
+
 // Do not edit below this line
 module.exports = repeatString;
