@@ -3,6 +3,7 @@ const repeatString = function(string, times) {
         console.log(string);
     }
 };
-
+const arr = [];
+arr.join('');
 // Do not edit below this line
 module.exports = repeatString;
