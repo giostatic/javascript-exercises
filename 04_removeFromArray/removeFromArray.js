@@ -1,10 +1,9 @@
 const removeFromArray = function(array, removedItem){
-    const arrayWithoutRemovedItem = [];
     for (let i = 0; i < array.length; i++){
-        if(array[i] !== removedItem){
-            arrayWithoutRemovedItem.filter(array[i]);
+        if(array[i] == removedItem){
+            array.filter(array[i]);
         }
-        return arrayWithoutRemovedItem;
+        return array;
     };
 };
 
