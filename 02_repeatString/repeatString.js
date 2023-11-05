@@ -1,6 +1,6 @@
 const repeatString = function(string, times) {
     for (let i = 0; i < times; i++){
-        console.log(string);
+        arr.push(string);
     }
 };
 const arr = [];
