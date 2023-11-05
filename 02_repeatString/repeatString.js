@@ -1,6 +1,6 @@
 
 const repeatString = function(string, times){
-    return (num < 0) ? new Error('Error') :string.repeat(times);
+    return (times < 0) ? new Error('Error') :string.repeat(times);
 };
 console.log(repeatString());
 // Do not edit below this line
