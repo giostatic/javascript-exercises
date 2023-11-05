@@ -1,6 +1,6 @@
 const removeFromArray = function(arr, num) {
-    let arrSlice = arr.slice('');
-    return arrSlice;
+    let arrFilter = arr.filter([arr],'num')
+    return arrFilter;
 };
 
 // Do not edit below this line
