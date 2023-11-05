@@ -1,10 +1,15 @@
-const arr = [];
 
-const repeatString = function(string, times) {
-    for (let i = 0; i < times; i++){
-        arr.push(string);
+const repeatString = function(string, times){
+    let i = 0;
+    while (i < times) {
+        if (i === times){
+            break;
+        } else {
+            return '';
+        }
+        i++;
     }
 };
-arr.join('');
+console.log(repeatString());
 // Do not edit below this line
 module.exports = repeatString;
