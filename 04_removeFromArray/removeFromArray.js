@@ -4,7 +4,7 @@ const removeFromArray = function(array, removedItem){
         if(array[i] == removedItem || array[i] === removedItem){
             array.filter(array[i]);
             arrayWithoutRemovedItem.push(array);
-            return arrayWithoutRemovedItem;
+            return array;
         } else {
             return array;
         }
